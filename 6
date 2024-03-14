@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    
+    float A, peso;
+    char sexo;
+    
+    puts("Qual sua altura em metros?");
+    scanf("%f",&A);
+    puts("Você é H ou M?");
+    scanf(" %c",&sexo);
+    if(sexo == 'H' || sexo == 'h'){
+        peso = 72.7 * A - 58;
+        printf("Seu peso ideal é %.2f",peso);
+    }
+    else if(sexo == 'M' || sexo == 'm'){
+        peso = 62.1 * A - 44.7;
+        printf("Seu peso ideal é %.2f",peso);
+    }
+    else{
+        puts("Sexo não identificado");
+    }
+    return 0;
+}
