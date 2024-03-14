@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    float C, real, dolar;
+    puts("Qual a cotação atual do dólar?");
+    scanf("%f",&C);
+    puts("Qual a quantidade de reais que serão convertidos?");
+    scanf("%f",&real);
+    dolar = real / C;
+    printf("A quantidade em Dólares é de %.2f",dolar);
+
+    return 0;    
+}
