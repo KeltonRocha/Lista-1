@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    
+    int valor; 
+    puts("Escreva um valor qualquer");
+    scanf("%d",&valor);
+    printf("Seu número em Hexadecimal é %X\n",valor);
+    printf("Seu número em Octal é %o",valor);
+    
+    return 0;
+}
