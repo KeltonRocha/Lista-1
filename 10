@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    float C, L, A, V;
+    puts("Qual o comprimento da caixa em metros?");
+    scanf("%f",&C);
+    puts("Qual a largura da caixa em metros?");
+    scanf("%f",&L);
+    puts("Qual a altura da caixa em metros?");
+    scanf("%f",&A);
+    V = C * L * A;
+    printf("O volume da caixa é de %.2fm³",V);
+    
+    return 0;
+    
+}
